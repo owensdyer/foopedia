@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FooPEDIA - My Recipes</title>
+</head>
+<body>
+    <header>
+        <h1>FooPEDIA</h1>
+    </header>
+        <nav>
+            <ul>
+                <li class="btn"><a href="/index.html">Home</a></li>
+            <li class="btn"><a href="/create_recipe.html">Add New Recipe</a></li>
+            <li class="btn"><a href="/recipes.html">Recipes</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="title">Create a Recipe</h1>
+
+        <label for="recipename">Name Your Recipe</label><br>
+        <input type="text" id="recipename"><br><br>
+
+        <label for="recipefile">Select an Image</label><br>
+        <input type="file" id="recipefile"><br><br>
+
+        <label for="ingredient">Add an Ingredient</label><br>
+        <input type="text" id="ingredient">
+        <button type="submit" id="ingredient_submit">Add Ingredient</button><br>
+        <div><ul id="listOfIngredients"></ul></div><br><br>
+
+        <label for="instruction">Add an Instruction</label><br>
+        <input type="text" id="instruction">
+        <button type="submit" id="instruction_submit">Add Instruction</button><br>
+        <div><ul id="listOfInstructions"></ul></div><br><br>
+
+        <button type="submit" id="create_recipe">Create Recipe</button>
+    </main>
+    
+
+    <script src="create_recipe.html"></script>
+</body>
+</html>

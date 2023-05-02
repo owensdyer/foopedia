@@ -1,0 +1,71 @@
+/* DEFAULT STYTLING */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-position: inside;
+    list-style-type: lower-alpha;
+}
+
+/* SEMANTIC STYLING */
+
+body#bg {
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+header {
+    padding: 1%;
+    background-color: #006d77;
+    color: white;
+}
+
+
+nav {
+    background-color: #83c5be;
+    padding: 1%;
+}
+
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style-type: none;
+}
+nav li:not(:first-child) {
+    padding: 0 2%;
+}
+
+main {
+    margin: 1%;
+}
+/* CLASS */
+.title {
+    padding-bottom: 1%;
+}
+.slogan {
+    padding: 1%;
+}
+
+.sm-slogan {
+    color: white;
+}
+.lg-slogan {
+    font-size: 400%;
+    color: white;
+}

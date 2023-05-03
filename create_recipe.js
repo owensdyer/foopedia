@@ -41,6 +41,11 @@ document.getElementById("instruction_submit").addEventListener("click", function
 
 // Save recipe into localstorage
 document.getElementById("create_recipe").addEventListener("click", function() {
-    recipe.push([listOfIngredients, listOfInstructions]);
+    recipe.push(listOfIngredients, listOfInstructions);
     window.localStorage.setItem(recipename.value, JSON.stringify(recipe));
+    listOfIngredients = [];
+    listOfInstructions = [];
+    recipename.value = "";
+    instruction.value = "";
+    ingredient.value = "";
 })

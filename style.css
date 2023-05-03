@@ -58,6 +58,11 @@ main {
 .title {
     padding-bottom: 1%;
 }
+
+.recipe {
+    margin: 1% 0;
+}
+
 .slogan {
     padding: 1%;
 }
